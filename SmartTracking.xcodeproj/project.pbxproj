@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		046562DC1AC6AFDA00500639 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 046562DB1AC6AFDA00500639 /* main.m */; };
+		046562DF1AC6AFDA00500639 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 046562DE1AC6AFDA00500639 /* AppDelegate.m */; };
+		046562E51AC6AFDA00500639 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046562E31AC6AFDA00500639 /* Main.storyboard */; };
+		046562E71AC6AFDA00500639 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046562E61AC6AFDA00500639 /* Images.xcassets */; };
+		046562EA1AC6AFDA00500639 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 046562E81AC6AFDA00500639 /* LaunchScreen.xib */; };
+		046562F61AC6AFDA00500639 /* SmartTrackingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 046562F51AC6AFDA00500639 /* SmartTrackingTests.m */; };
+		04B97B751AC6D08900C3777D /* UIAddingMenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B97B741AC6D08900C3777D /* UIAddingMenuTableViewController.m */; };
+		04B97B781AC6D09800C3777D /* UIDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B97B771AC6D09800C3777D /* UIDetailTableViewController.m */; };
+		04B97B7B1AC6D0AB00C3777D /* UISettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B97B7A1AC6D0AB00C3777D /* UISettingsTableViewController.m */; };
+		04B97B7E1AC6D0BE00C3777D /* UIMainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B97B7D1AC6D0BE00C3777D /* UIMainMenuViewController.m */; };
+		04B97B861AC6D59400C3777D /* UIPersonsCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B97B851AC6D59400C3777D /* UIPersonsCollectionView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		046562F01AC6AFDA00500639 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 046562CE1AC6AFDA00500639 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 046562D51AC6AFDA00500639;
+			remoteInfo = SmartTracking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		046562D61AC6AFDA00500639 /* SmartTracking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartTracking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		046562DA1AC6AFDA00500639 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046562DB1AC6AFDA00500639 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		046562DD1AC6AFDA00500639 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		046562DE1AC6AFDA00500639 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		046562E41AC6AFDA00500639 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		046562E61AC6AFDA00500639 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		046562E91AC6AFDA00500639 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		046562EF1AC6AFDA00500639 /* SmartTrackingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartTrackingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		046562F41AC6AFDA00500639 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046562F51AC6AFDA00500639 /* SmartTrackingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartTrackingTests.m; sourceTree = "<group>"; };
+		04B97B731AC6D08900C3777D /* UIAddingMenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAddingMenuTableViewController.h; sourceTree = "<group>"; };
+		04B97B741AC6D08900C3777D /* UIAddingMenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIAddingMenuTableViewController.m; sourceTree = "<group>"; };
+		04B97B761AC6D09800C3777D /* UIDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIDetailTableViewController.h; sourceTree = "<group>"; };
+		04B97B771AC6D09800C3777D /* UIDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIDetailTableViewController.m; sourceTree = "<group>"; };
+		04B97B791AC6D0AB00C3777D /* UISettingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UISettingsTableViewController.h; sourceTree = "<group>"; };
+		04B97B7A1AC6D0AB00C3777D /* UISettingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UISettingsTableViewController.m; sourceTree = "<group>"; };
+		04B97B7C1AC6D0BE00C3777D /* UIMainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIMainMenuViewController.h; sourceTree = "<group>"; };
+		04B97B7D1AC6D0BE00C3777D /* UIMainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIMainMenuViewController.m; sourceTree = "<group>"; };
+		04B97B841AC6D59400C3777D /* UIPersonsCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIPersonsCollectionView.h; sourceTree = "<group>"; };
+		04B97B851AC6D59400C3777D /* UIPersonsCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIPersonsCollectionView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		046562D31AC6AFDA00500639 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046562EC1AC6AFDA00500639 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		046562CD1AC6AFDA00500639 = {
+			isa = PBXGroup;
+			children = (
+				046562D81AC6AFDA00500639 /* SmartTracking */,
+				046562F21AC6AFDA00500639 /* SmartTrackingTests */,
+				046562D71AC6AFDA00500639 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		046562D71AC6AFDA00500639 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				046562D61AC6AFDA00500639 /* SmartTracking.app */,
+				046562EF1AC6AFDA00500639 /* SmartTrackingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		046562D81AC6AFDA00500639 /* SmartTracking */ = {
+			isa = PBXGroup;
+			children = (
+				04B97B5E1AC6C88800C3777D /* UserInterface */,
+				046562DD1AC6AFDA00500639 /* AppDelegate.h */,
+				046562DE1AC6AFDA00500639 /* AppDelegate.m */,
+				046562E31AC6AFDA00500639 /* Main.storyboard */,
+				046562E61AC6AFDA00500639 /* Images.xcassets */,
+				046562E81AC6AFDA00500639 /* LaunchScreen.xib */,
+				046562D91AC6AFDA00500639 /* Supporting Files */,
+			);
+			path = SmartTracking;
+			sourceTree = "<group>";
+		};
+		046562D91AC6AFDA00500639 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				046562DA1AC6AFDA00500639 /* Info.plist */,
+				046562DB1AC6AFDA00500639 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		046562F21AC6AFDA00500639 /* SmartTrackingTests */ = {
+			isa = PBXGroup;
+			children = (
+				046562F51AC6AFDA00500639 /* SmartTrackingTests.m */,
+				046562F31AC6AFDA00500639 /* Supporting Files */,
+			);
+			path = SmartTrackingTests;
+			sourceTree = "<group>";
+		};
+		046562F31AC6AFDA00500639 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				046562F41AC6AFDA00500639 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04B97B5E1AC6C88800C3777D /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+				04B97B6F1AC6D07800C3777D /* UIAddingMenuTableViewController */,
+				04B97B701AC6D07800C3777D /* UIDetailTableViewController */,
+				04B97B711AC6D07800C3777D /* UIMainMenuViewController */,
+				04B97B721AC6D07800C3777D /* UISettingsTableViewController */,
+			);
+			path = UserInterface;
+			sourceTree = "<group>";
+		};
+		04B97B6F1AC6D07800C3777D /* UIAddingMenuTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				04B97B731AC6D08900C3777D /* UIAddingMenuTableViewController.h */,
+				04B97B741AC6D08900C3777D /* UIAddingMenuTableViewController.m */,
+			);
+			path = UIAddingMenuTableViewController;
+			sourceTree = "<group>";
+		};
+		04B97B701AC6D07800C3777D /* UIDetailTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				04B97B761AC6D09800C3777D /* UIDetailTableViewController.h */,
+				04B97B771AC6D09800C3777D /* UIDetailTableViewController.m */,
+			);
+			path = UIDetailTableViewController;
+			sourceTree = "<group>";
+		};
+		04B97B711AC6D07800C3777D /* UIMainMenuViewController */ = {
+			isa = PBXGroup;
+			children = (
+				04B97B831AC6D54E00C3777D /* UIPersonsCollectionView */,
+				04B97B7C1AC6D0BE00C3777D /* UIMainMenuViewController.h */,
+				04B97B7D1AC6D0BE00C3777D /* UIMainMenuViewController.m */,
+			);
+			path = UIMainMenuViewController;
+			sourceTree = "<group>";
+		};
+		04B97B721AC6D07800C3777D /* UISettingsTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				04B97B791AC6D0AB00C3777D /* UISettingsTableViewController.h */,
+				04B97B7A1AC6D0AB00C3777D /* UISettingsTableViewController.m */,
+			);
+			path = UISettingsTableViewController;
+			sourceTree = "<group>";
+		};
+		04B97B831AC6D54E00C3777D /* UIPersonsCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				04B97B841AC6D59400C3777D /* UIPersonsCollectionView.h */,
+				04B97B851AC6D59400C3777D /* UIPersonsCollectionView.m */,
+			);
+			path = UIPersonsCollectionView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		046562D51AC6AFDA00500639 /* SmartTracking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046562F91AC6AFDA00500639 /* Build configuration list for PBXNativeTarget "SmartTracking" */;
+			buildPhases = (
+				046562D21AC6AFDA00500639 /* Sources */,
+				046562D31AC6AFDA00500639 /* Frameworks */,
+				046562D41AC6AFDA00500639 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartTracking;
+			productName = SmartTracking;
+			productReference = 046562D61AC6AFDA00500639 /* SmartTracking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		046562EE1AC6AFDA00500639 /* SmartTrackingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046562FC1AC6AFDA00500639 /* Build configuration list for PBXNativeTarget "SmartTrackingTests" */;
+			buildPhases = (
+				046562EB1AC6AFDA00500639 /* Sources */,
+				046562EC1AC6AFDA00500639 /* Frameworks */,
+				046562ED1AC6AFDA00500639 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				046562F11AC6AFDA00500639 /* PBXTargetDependency */,
+			);
+			name = SmartTrackingTests;
+			productName = SmartTrackingTests;
+			productReference = 046562EF1AC6AFDA00500639 /* SmartTrackingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		046562CE1AC6AFDA00500639 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Mac OS X";
+				TargetAttributes = {
+					046562D51AC6AFDA00500639 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					046562EE1AC6AFDA00500639 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 046562D51AC6AFDA00500639;
+					};
+				};
+			};
+			buildConfigurationList = 046562D11AC6AFDA00500639 /* Build configuration list for PBXProject "SmartTracking" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 046562CD1AC6AFDA00500639;
+			productRefGroup = 046562D71AC6AFDA00500639 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				046562D51AC6AFDA00500639 /* SmartTracking */,
+				046562EE1AC6AFDA00500639 /* SmartTrackingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		046562D41AC6AFDA00500639 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046562E51AC6AFDA00500639 /* Main.storyboard in Resources */,
+				046562EA1AC6AFDA00500639 /* LaunchScreen.xib in Resources */,
+				046562E71AC6AFDA00500639 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046562ED1AC6AFDA00500639 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		046562D21AC6AFDA00500639 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B97B781AC6D09800C3777D /* UIDetailTableViewController.m in Sources */,
+				046562DF1AC6AFDA00500639 /* AppDelegate.m in Sources */,
+				04B97B7B1AC6D0AB00C3777D /* UISettingsTableViewController.m in Sources */,
+				04B97B861AC6D59400C3777D /* UIPersonsCollectionView.m in Sources */,
+				046562DC1AC6AFDA00500639 /* main.m in Sources */,
+				04B97B7E1AC6D0BE00C3777D /* UIMainMenuViewController.m in Sources */,
+				04B97B751AC6D08900C3777D /* UIAddingMenuTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046562EB1AC6AFDA00500639 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046562F61AC6AFDA00500639 /* SmartTrackingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		046562F11AC6AFDA00500639 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 046562D51AC6AFDA00500639 /* SmartTracking */;
+			targetProxy = 046562F01AC6AFDA00500639 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		046562E31AC6AFDA00500639 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046562E41AC6AFDA00500639 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		046562E81AC6AFDA00500639 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046562E91AC6AFDA00500639 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		046562F71AC6AFDA00500639 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		046562F81AC6AFDA00500639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		046562FA1AC6AFDA00500639 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SmartTracking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		046562FB1AC6AFDA00500639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SmartTracking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		046562FD1AC6AFDA00500639 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SmartTrackingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartTracking.app/SmartTracking";
+			};
+			name = Debug;
+		};
+		046562FE1AC6AFDA00500639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SmartTrackingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartTracking.app/SmartTracking";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		046562D11AC6AFDA00500639 /* Build configuration list for PBXProject "SmartTracking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046562F71AC6AFDA00500639 /* Debug */,
+				046562F81AC6AFDA00500639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046562F91AC6AFDA00500639 /* Build configuration list for PBXNativeTarget "SmartTracking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046562FA1AC6AFDA00500639 /* Debug */,
+				046562FB1AC6AFDA00500639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046562FC1AC6AFDA00500639 /* Build configuration list for PBXNativeTarget "SmartTrackingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046562FD1AC6AFDA00500639 /* Debug */,
+				046562FE1AC6AFDA00500639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 046562CE1AC6AFDA00500639 /* Project object */;
+}
