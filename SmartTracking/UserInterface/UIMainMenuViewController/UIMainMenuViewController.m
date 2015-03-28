@@ -8,6 +8,8 @@
 
 #import "UIMainMenuViewController.h"
 
+NSString *const UIPersonsCollectionViewItemIdentifier = @"UIPersonsCollectionViewItemIdentifier";
+
 @interface UIMainMenuViewController ()
 
 @end
@@ -23,6 +25,27 @@
     [super didReceiveMemoryWarning];
     
     // Dispose of any resources that can be recreated.
+}
+
+#pragma mark - Data Source Collection View
+
+- (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView {
+#warning Incomplete method implementation -- Return the number of sections
+    return 0;
+}
+
+
+- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
+#warning Incomplete method implementation -- Return the number of items in the section
+    return 0;
+}
+
+- (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
+    UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"" forIndexPath:indexPath];
+    
+    // Configure the cell
+    
+    return cell;
 }
 
 /*

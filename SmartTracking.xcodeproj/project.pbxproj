@@ -17,7 +17,7 @@
 		04B97B781AC6D09800C3777D /* UIDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B97B771AC6D09800C3777D /* UIDetailTableViewController.m */; };
 		04B97B7B1AC6D0AB00C3777D /* UISettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B97B7A1AC6D0AB00C3777D /* UISettingsTableViewController.m */; };
 		04B97B7E1AC6D0BE00C3777D /* UIMainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B97B7D1AC6D0BE00C3777D /* UIMainMenuViewController.m */; };
-		04B97B861AC6D59400C3777D /* UIPersonsCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B97B851AC6D59400C3777D /* UIPersonsCollectionView.m */; };
+		04B97B8D1AC6DAA500C3777D /* UIConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B97B8C1AC6DAA500C3777D /* UIConstants.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,8 +50,8 @@
 		04B97B7A1AC6D0AB00C3777D /* UISettingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UISettingsTableViewController.m; sourceTree = "<group>"; };
 		04B97B7C1AC6D0BE00C3777D /* UIMainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIMainMenuViewController.h; sourceTree = "<group>"; };
 		04B97B7D1AC6D0BE00C3777D /* UIMainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIMainMenuViewController.m; sourceTree = "<group>"; };
-		04B97B841AC6D59400C3777D /* UIPersonsCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIPersonsCollectionView.h; sourceTree = "<group>"; };
-		04B97B851AC6D59400C3777D /* UIPersonsCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIPersonsCollectionView.m; sourceTree = "<group>"; };
+		04B97B8B1AC6DAA500C3777D /* UIConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIConstants.h; sourceTree = "<group>"; };
+		04B97B8C1AC6DAA500C3777D /* UIConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIConstants.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,9 +133,10 @@
 		04B97B5E1AC6C88800C3777D /* UserInterface */ = {
 			isa = PBXGroup;
 			children = (
+				04B97B8A1AC6DA4100C3777D /* UIConstants */,
+				04B97B711AC6D07800C3777D /* UIMainMenuViewController */,
 				04B97B6F1AC6D07800C3777D /* UIAddingMenuTableViewController */,
 				04B97B701AC6D07800C3777D /* UIDetailTableViewController */,
-				04B97B711AC6D07800C3777D /* UIMainMenuViewController */,
 				04B97B721AC6D07800C3777D /* UISettingsTableViewController */,
 			);
 			path = UserInterface;
@@ -162,7 +163,6 @@
 		04B97B711AC6D07800C3777D /* UIMainMenuViewController */ = {
 			isa = PBXGroup;
 			children = (
-				04B97B831AC6D54E00C3777D /* UIPersonsCollectionView */,
 				04B97B7C1AC6D0BE00C3777D /* UIMainMenuViewController.h */,
 				04B97B7D1AC6D0BE00C3777D /* UIMainMenuViewController.m */,
 			);
@@ -178,13 +178,13 @@
 			path = UISettingsTableViewController;
 			sourceTree = "<group>";
 		};
-		04B97B831AC6D54E00C3777D /* UIPersonsCollectionView */ = {
+		04B97B8A1AC6DA4100C3777D /* UIConstants */ = {
 			isa = PBXGroup;
 			children = (
-				04B97B841AC6D59400C3777D /* UIPersonsCollectionView.h */,
-				04B97B851AC6D59400C3777D /* UIPersonsCollectionView.m */,
+				04B97B8B1AC6DAA500C3777D /* UIConstants.h */,
+				04B97B8C1AC6DAA500C3777D /* UIConstants.m */,
 			);
-			path = UIPersonsCollectionView;
+			path = UIConstants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,7 +290,7 @@
 				04B97B781AC6D09800C3777D /* UIDetailTableViewController.m in Sources */,
 				046562DF1AC6AFDA00500639 /* AppDelegate.m in Sources */,
 				04B97B7B1AC6D0AB00C3777D /* UISettingsTableViewController.m in Sources */,
-				04B97B861AC6D59400C3777D /* UIPersonsCollectionView.m in Sources */,
+				04B97B8D1AC6DAA500C3777D /* UIConstants.m in Sources */,
 				046562DC1AC6AFDA00500639 /* main.m in Sources */,
 				04B97B7E1AC6D0BE00C3777D /* UIMainMenuViewController.m in Sources */,
 				04B97B751AC6D08900C3777D /* UIAddingMenuTableViewController.m in Sources */,
